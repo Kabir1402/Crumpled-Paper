@@ -14,7 +14,6 @@ constructor(){
 
 display() {
   push();
-  //translate(this.body.position.x, this.body.position.y);
     ellipseMode(CENTER);
     ellipse(this.body.position.x, this.body.position.y, this.radius)
     pop();
